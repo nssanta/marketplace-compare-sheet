@@ -1,6 +1,13 @@
+# Протестировано на Python 3.12. На 3.11 и 3.13 тоже работает.
+# На Python 3.14+ возможны проблемы со сборкой wheels — используй 3.12.
 fastapi==0.115.5
 uvicorn[standard]==0.32.1
 pydantic==2.10.3
 pydantic-settings==2.6.1
 httpx==0.28.1
 python-dotenv==1.0.1
+
+# Для тестов
+pytest==8.3.4
+pytest-asyncio==0.24.0
+httpx  # нужен и для тестов FastAPI TestClient
