@@ -7,6 +7,10 @@ pydantic-settings==2.6.1
 httpx==0.28.1
 python-dotenv==1.0.1
 
+# Playwright: headless браузер для Ozon live_public provider
+# После pip install запусти: playwright install chromium && playwright install-deps
+playwright==1.49.1
+
 # Для тестов
 pytest==8.3.4
 pytest-asyncio==0.24.0
